@@ -1,0 +1,726 @@
+
+nav{
+  height: 100px;
+  background-color: black;
+
+
+}
+nav i{
+  font-size: 50px;
+  margin-top: 10px;
+  margin-left: 30px;
+  color: #f44336;
+  font-family: 'Rubik Microbe';
+}
+nav i:hover{
+  cursor: pointer;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  float: right;
+  transform: translateY(-30px);
+  color: white;
+  margin-right: 30px;
+  font-size: 20px;
+ 
+
+}
+
+
+
+
+.overlay {
+  height: 100%;
+  width: 0%;
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0, 0.9); 
+  overflow-x: hidden; 
+  transition: 0.9s; }
+
+.overlay-content {
+  position: relative;
+  top: 25%; 
+  width: 100%; 
+  text-align: center; 
+  margin-top: 30px; }
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; 
+  transition: 0.3s; 
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: red;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/*nav ended*/
+
+#mySidenav a {
+  position: fixed;
+  left: -100px;
+  transition: 1s;
+  padding: 10px;
+  width: 140px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#FB {
+  top: 35%;
+  background-color: #3b5998;
+}
+#Insta {
+  top: 44%;
+  background-color: #C13584;
+}
+
+#Twitter {
+  top: 53%;
+  background-color: #2196F3;
+}
+
+#Google {
+  top: 62%;
+  background-color: #f44336;
+}
+
+
+#Whatsapp {
+  top: 71%;
+  background-color: #25D366;
+}
+.header{
+  width: 100%;
+  height: 600px;
+  border:0px solid red;
+
+
+}
+.header img{
+  width: 100%;
+  height: 100%;
+  margin-top: -30px;
+
+  
+}
+
+
+.Benefits{
+  width: 100%;
+  height: 400px;
+  border: 0px solid green;
+  position: absolute;
+  float: left;
+
+}
+.Benefits h1{
+  font-size: 50px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Rubik Microbe', cursive;
+  color: #4d0026;
+  font-weight: bold;
+}
+.B-C1,.B-C2,.B-C3,.B-C4{
+  width: 140px;
+  height: 140px;
+  border: 0px solid black;
+ float: left;
+  margin-left: 130px;
+  margin-top: 70px;
+  border-radius: 100%;
+  background-color: #4d0026;
+
+}
+.Benefits i{
+  font-size: 50px;
+  margin-top: 50px;
+  margin-left: 45px;
+  color: white;
+}
+.Benefits h3{
+ text-align: center;
+  margin-top: 40px;
+}
+
+/*arijit*/
+
+.arijit{
+  width: 100%;
+  height: 500px;
+  border: 0px solid blueviolet;
+  float: left;
+  margin-top: 400px;
+
+
+
+}
+.arijit2{
+  width: 40%;
+  height: 500px;
+  border: 0px solid yellow;
+  float: left;
+  margin-top: 0px;
+  margin-left: 100px;
+}
+.arijit2 img{
+  width: 100%;
+  height: 100%;
+}
+.arijit p{
+  font-size: 50px;
+  font-weight: bold;
+  word-spacing: 5px;
+  letter-spacing: 4px;
+  line-height: 50px;
+  color: rgba(0, 0, 0, 0.0);
+  -webkit-text-stroke:2px #330000;
+
+
+}
+.arijit h1{
+  font-size: 70px;
+ font-family: 'Rubik Microbe', cursive;
+ font-weight: bold;
+ 
+ margin-top: 30px;
+
+ color: #4d0026;
+
+}
+.arijit button{
+   transform: translateX(110px);
+  margin-top: 0px;
+  background-color: #330000;
+  color: white;
+  width: 50px;
+  height: 50px;
+  font-weight: bolder;
+  font-size: 25px ;
+
+  border-radius: 100%;
+}
+.arijit button:hover{
+  background-color: blanchedalmond;
+  color: maroon;
+}
+.arijit span{
+  width: 1000px;
+  height: 30px;
+  border: 4px solid blueviolet;
+  transform: translateY(100px);
+}
+
+
+
+
+
+/*arijit end*/
+
+/*honey*/
+
+.honey{
+  width: 100%;
+  height: 500px;
+  border: 0px solid blueviolet;
+  float: left;
+  margin-top: 0px;
+
+}
+.honey2{
+  width: 50%;
+  height: 500px;
+  border: 0px solid yellow;
+  float: right;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.honey2 img{
+  width: 100%;
+  height: 100%;
+}
+.honey p{
+  margin-top: 20px;
+  margin-left: 120px;
+  font-size: 50px;
+  font-weight: bold;
+  word-spacing: 5px;
+  letter-spacing: 4px;
+  line-height: 50px;
+  color: rgba(0, 0, 0, 0.0);
+  -webkit-text-stroke:2px #330000;
+
+
+}
+.honey h1{
+  font-size: 70px;
+ font-family: 'Rubik Microbe', cursive;
+ font-weight: bold;
+ transform: translateX(0px);
+ margin-left: 100px;
+ margin-top: 30px;
+ color: #4d0026;
+
+}
+.honey button{
+   transform: translateX(130px);
+  margin-top: 20px;
+  background-color: #330000;
+
+  color: white;
+  width: 50px;
+  height: 50px;
+  font-size: 25px ;
+  font-weight: bolder;
+
+  border-radius: 100%;
+}
+.honey button:hover{
+  background-color: blanchedalmond;
+  color: maroon;
+}
+
+/*udit narayn*/
+.udit{
+  width: 100%;
+  height: 500px;
+  border: 0px solid blueviolet;
+  float: left;
+  
+
+}
+.udit2{
+  width: 40%;
+  height: 500px;
+  border: 0px solid yellow;
+  float: left;
+  margin-top: 0px;
+  margin-left: 100px;
+}
+.udit2 img{
+  width: 100%;
+  height: 100%;
+}
+.udit p{
+  font-size: 50px;
+  font-weight: bold;
+  word-spacing: 5px;
+  letter-spacing: 4px;
+  line-height: 50px;
+  color: rgba(0, 0, 0, 0.0);
+  -webkit-text-stroke:2px #330000;
+
+
+}
+.udit h1{
+  font-size: 70px;
+ font-family: 'Rubik Microbe', cursive;
+ font-weight: bold;
+ transform: translateX(0px);
+
+ margin-top: 40px;
+ color: #4d0026;
+
+}
+.udit button{
+  transform: translateX(150px);
+  margin-top: 30px;
+  background-color: #330000;
+  color: white;
+  width: 50px;
+  height: 50px;
+  font-size: 25px ;
+  font-weight: bolder;
+
+  border-radius: 100%;
+}
+.udit button:hover{
+  background-color: blanchedalmond;
+  color: maroon;
+}
+/*Rahat*/
+
+.rahat{
+  width: 100%;
+  height: 500px;
+  border: 0px solid blueviolet;
+  float: left;
+  margin-top: 0px;
+
+}
+.rahat2{
+  width: 40%;
+  height: 500px;
+  border: 0px solid yellow;
+  float: right;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 100px;
+}
+.rahat2 img{
+  width: 100%;
+  height: 100%;
+}
+.rahat p{
+  margin-top: 20px;
+  margin-left: 120px;
+  font-size: 50px;
+  font-weight: bold;
+  word-spacing: 5px;
+  letter-spacing: 4px;
+  line-height: 50px;
+  color: rgba(0, 0, 0, 0.0);
+  -webkit-text-stroke:2px #330000;
+
+
+}
+.rahat h1{
+  font-size: 70px;
+ font-family: 'Rubik Microbe', cursive;
+ font-weight: bold;
+ transform: translateX(0px);
+ margin-left: 100px;
+ margin-top: 30px;
+ color: #4d0026;
+
+}
+.rahat button{
+   transform: translateX(130px);
+  margin-top: 20px;
+  background-color: #330000;
+  font-weight: bolder;
+
+  color: white;
+  width: 50px;
+  height: 50px;
+  font-size: 25px ;
+
+  border-radius: 100%;
+}
+.rahat button:hover{
+  background-color: blanchedalmond;
+  color: maroon;
+}
+
+
+/*image section end*/
+
+.logo{
+  width: 100%;
+  height: 500px;
+  border: 0px solid yellow;
+  float: left;
+  background-color: #33001a;
+ 
+}
+.logo h1{
+  font-size: 150px;
+  font-family: 'Rubik microbe';
+  color: whitesmoke;
+  letter-spacing: 20px;
+margin-top: 150px;
+text-align: center;
+  font-weight: bold;
+
+}
+.logo p{
+  letter-spacing: 25px;
+  margin-top:-30px;
+  color: whitesmoke;
+  margin-left: 300PX;
+}
+.logo button{
+  width: 140px;
+  height: 50px;
+ margin-left: 560px;
+ margin-top: 20px;
+ border-radius: 10px;
+ background-color: white;
+ font-weight: bold;
+
+}
+
+.accordion{
+  width: 90%;
+  margin:30px 0px 30px 50px;
+  float:left ;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+
+}
+.logo button:hover{
+  background-color: blanchedalmond;
+  color: maroon;
+}
+.accordion h2{
+  text-align: center;
+  color: #4d0026;
+  font-weight: bold;
+  font-family: 'Rubik Microbe';
+  font-size: 50px;
+}
+.item{
+  border: 0px solid black;
+  box-shadow: 2px 2px 2px 0px black;
+  display: grid;
+  grid-template-columns:auto 1fr auto ;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 10px;
+
+}
+
+.hidden-box{
+  grid-column: 2/3;
+  display: none;
+  padding-right:40px;
+
+
+}
+.active .hidden-box{
+  display: block;
+}
+.accordion h4 {
+  color:#4d0026 ;
+}
+
+.item:hover{
+  background-color:#4d0026 ;
+  color: white;
+
+}
+.item:hover h4{
+  color: white;
+}
+
+
+
+/*footer section*/
+.footer{
+  width: 100%;
+  height: 100%;
+  border: 0px solid green;
+  float: left;
+}
+
+
+
+
+
+.footer-distributed{
+  background: black;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span{
+  color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  font-weight:400;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 35%;
+}
+
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  font-weight:400;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  white;
+  text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  white;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+  .footer-distributed{
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+  .footer-icons{
+    width: 100px;
+    height: 100px;
+  }
+
+.copyright{
+  width: 100%;
+  height: 50px;
+  }
+
+

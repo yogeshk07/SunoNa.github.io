@@ -1,0 +1,401 @@
+body{
+  background: #33001a;
+}
+nav{
+  height: 60px;
+  background-color: black;
+
+
+}
+nav i{
+  font-size: 50px;
+  margin-top: 10px;
+  margin-left: 30px;
+  color: #f44336;
+  font-family: 'Rubik Microbe';
+}
+nav i:hover{
+  cursor: pointer;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  float: right;
+  transform: translateY(-30px);
+  color: white;
+  margin-right: 30px;
+  font-size: 20px;
+ 
+
+}
+
+
+
+
+.overlay {
+  height: 100%;
+  width: 0%;
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0, 0.9); 
+  overflow-x: hidden; 
+  transition: 0.9s; }
+
+.overlay-content {
+  position: relative;
+  top: 25%; 
+  width: 100%; 
+  text-align: center; 
+  margin-top: 30px; }
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; 
+  transition: 0.3s; 
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: red;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+
+
+/*nav ended*/
+#mySidenav a {
+  position: fixed;
+  left: -100px;
+  transition: 1s;
+  padding: 10px;
+  width: 140px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#FB {
+  top: 35%;
+  background-color: #3b5998;
+}
+#Insta {
+  top: 44%;
+  background-color: #C13584;
+}
+
+#Twitter {
+  top: 53%;
+  background-color: #2196F3;
+}
+
+#Google {
+  top: 62%;
+  background-color: #f44336;
+}
+
+
+#Whatsapp {
+  top: 71%;
+  background-color: #25D366
+}
+.heading{
+  width: 100%;
+  height: 50px;
+  border: 0px solid white;
+  float: left;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+.heading h1{
+  font-family: 'fantasy;';
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.logo{
+  width: 200px;
+  height:200px;
+  border:6px solid grey ;
+  border-radius: 100%;
+  background: #fff7e6;
+  float: left;
+  margin-left: 42%;
+  margin-bottom: 20px;
+
+  
+
+}
+
+
+.logo h2{
+  font-size:120px;
+  color: #33001a;
+  font-family: 'Rubik Microbe';
+  font-weight: bold;
+  padding: auto;
+  margin-top:25px ;
+  margin-left: 5px;
+
+}
+
+.text_content{
+  width: 100%;
+  height: 250px;
+  border: 0px solid white;
+  float: left;
+  padding-left:20% ;
+  padding-right: 20%;
+  margin-bottom: 20px;
+}
+.text_content p{
+  color: #a6a6a6;
+  text-align: center;
+  line-height: 50px;
+}
+.counters{
+  width: 16%;
+  height:200px ;
+  border: 0px solid white;
+  float: left;
+  margin-left: 160px;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: #fff7e6;
+}
+.counters i,.counters h2,.counters h3{
+  color: #33001a;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  line-height: 60px;
+}
+.counters h3{
+  font-size: 30px;
+  color: #f44336;
+}
+.counters i{
+    color: #f44336;
+    margin-left: 80px;
+}
+
+
+/*footer section*/
+.footer{
+  width: 100%;
+  height: 100%;
+  border: 0px solid green;
+  float: left;
+}
+
+
+
+
+
+.footer-distributed{
+  background: black;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span{
+  color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  font-weight:400;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 35%;
+}
+
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  font-weight:400;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  white;
+  text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  white;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+  .footer-distributed{
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+  .footer-icons{
+    width: 100px;
+    height: 100px;
+  }
+
+.copyright{
+  width: 100%;
+  height: 50px;
+  }
+

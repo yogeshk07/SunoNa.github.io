@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome icones CDN Link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+<link rel="stylesheet" type="text/css" href="SignCSS.css">
+
+    <title>Sign Up</title>
+    <!-- Linking css code file -->
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+  <div id="myNav" class="overlay">
+
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="About.html">About</a>
+    <a href="index.html">Home</a>
+    <a href="#">Downloads</a>
+    <a href="#">Playlist</a>
+  </div>
+
+    <!-- Button to close the overlay navigation -->
+  <a class="closebtn" onclick="closeNav()" href="">&times;</a>
+
+</div>
+
+
+<nav>
+  <i class="fa-sharp fa-solid fa-music" onclick="openNav()"  ></i>
+  <audio id="welcome" >
+    <source  src="songs\06 (mp3cut.net).mp3" type="">
+  </audio>
+  
+  <h3 style="margin-top: -40px;margin-left: 90px;color: lightseagreen;cursor: pointer;" onclick="WelcomeSong()" onmouseout="WelcomeSongOut()">Suno Na</h3>
+   
+  <ul>
+    <li ><a href="player.html" target="blank" style="color:white;text-decoration: none;" >Login </a></li>
+    <li><a href="index.html" style="text-decoration:none;color: white;">Home</a></li>
+    <li>|</li>
+    <li><a>Download</a></li>
+    <li><a>Subscribe</a></li>
+  </ul>
+
+
+</nav>
+
+
+
+
+<!--nav close-->
+
+ <header class="container">
+    
+    <div class="container2">
+<form action="#" style="max-width:250px;" onsubmit="return validation()" >
+  <h2>Sign <span>Up</span></h2>
+  <div class="input-container" >
+    <i class="bi bi-person-circle"></i>
+    <input class="input-field" type="text" placeholder="Username" name="usrnm" id="user_name" >
+  </div>
+
+  <div class="input-container">
+   <i class="bi bi-envelope-at-fill"></i>
+    <input class="input-field" type="text" placeholder="Email" name="email" id="email">
+  </div>
+
+   <div class="input-container">
+    <i class="bi bi-telephone-fill"></i>
+    <input class="input-field" type="number" placeholder="Mobile number" name="mnumber" id="number">
+  </div>
+  
+  <div class="input-container">
+    <i class="bi bi-key-fill"></i>
+    <input class="input-field" type="password" placeholder="Password" name="psw" id="pass">
+  </div>
+
+  <div class="input-container">
+    <i class="bi bi-key"></i>
+    <input class="input-field" type="password" placeholder="Confirm Password" name="rpsw" id="rePass">
+  </div>
+
+  <input type="submit" value="submit" name="submit" class="btn"></input>
+  <button type="submit" class="btn">Login</button><br><br>
+
+  <small>Terms & conditions ?</small>
+</form>
+        
+    </div>
+    <div class="container4">
+      <h1><span>Join</span>us and enjoy Music of every <span>Era</span></h1>
+        <button onmouseover="song1()" onmouseout="song1out()">S</button>
+        <audio src="audio\kisi_ki_muskurahaton.mp3" id="S1"></audio>
+        <button onmouseover="song2()" onmouseout="song2out()">U</button>
+        <audio src="audio\Khwab Ho Tum Ya Koi Haqeeqat (1).mp3" id="S2"></audio>
+        <button onmouseover="song3()" onmouseout="song3out()">N</button>
+        <audio src="audio\Dekha Jo Tumko ! Kumar Sanu ! Hindi Old Love Song.mp3" id="S3"></audio>
+        <button onmouseover="song4()" onmouseout="song4out()">O</button>
+        <audio src="audio\Ddlj.mp3" id="S4"></audio>
+        <button class="Bn" onmouseover="song5()" onmouseout="song5out()">N</button>
+        <audio src="audio\Atif Aslam.mp3" id="S5"></audio>
+        <button class="Bn" onmouseover="song6()" onmouseout="song6out()">A</button>
+        <audio src="audio\Kesariya Tera Ishq Hai - Kesariya.mp3" id="S6"></audio>
+        <input type="button" class="Dl" value="Download"> </input>
+        
+    </div>
+
+
+    <div class="container3">
+        <h3>Or Sign in With</h3>
+        <button class="btn" id="fb"><a href="#">Facebook</a></button>
+        <button class="btn" id="g"><a href="#">Google</a></button>
+        <button class="btn" id="gst"><a href="#">Guest</a></button>
+    </div>
+     
+</div>
+
+
+
+ </header>
+<!--footer-->
+<div class="footer">
+ 
+<footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3>Suno<span>Na</span></h3>
+
+        <p class="footer-links">
+          <a href="#" class="link-1">Home</a>
+          
+          <a href="#">Blog</a>
+        
+          <a href="#">Pricing</a>
+        
+          <a href="#">About</a>
+          
+          <a href="#">Faq</a>
+          
+          <a href="#">Contact</a>
+        </p>
+        <input type="search" name="" placeholder="Email" style="width:200px;height: 40px;">
+        <button class="NavBtn">Subscribe</button>
+      
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          
+          <i class="fa fa-map-marker"></i>
+
+          <p><span>MP Nagar </span> Bhopal </p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p><a href="tel:8839381634">8839381634</a></p>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-envelope"></i>
+          <p><a href="mailto:hkuruvanshi227@gmail.com">SunoNA@Gmail.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span style="font-size:20px;">About the company</span>
+          Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+        </p>
+
+        <div class="footer-icons">
+
+          <a href=""><i class="fa-brands fa-google-play"></i></a>
+          <a href=""><i class="fa-brands fa-app-store"></i></a>
+          
+
+        </div>
+
+      </div><br><br><br>
+      <div class="copyright"> <p>Suno Na &#169 2022<p></div>
+
+    </footer>
+
+
+
+<script src="signupJS.js"></script>
+<script src="MainJS.js"></script>
+</body>
+</html>
